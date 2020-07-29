@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #888;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: #ffffff;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+img {
+    display: none;
+    height: 600px;
+}
+
+.active {
+    display: block;
+}
+
+button {
+    padding: 10px 50px;
+    border: none;
+    margin: 5px;
+    background-color: #999;
+    border-radius: 5px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #333333;
+    color: white;
+}
+
